@@ -1,0 +1,20 @@
+{
+  "name": "zazu-lifx",
+  "version": "1.0.0",
+  "description": "Zazu plugin to control your LIFX lights",
+  "main": "zazu.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha ./test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.13.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  },
+  "dependencies": {
+    "node-lifx": "^0.8.0"
+  }
+}
